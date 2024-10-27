@@ -8,8 +8,8 @@ plugins {
     id("xyz.jpenilla.resource-factory-bukkit-convention") version "1.1.1"
 }
 
-group = "org.esoteric"
-version = "0.2.2"
+group = "foundation.esoteric"
+version = "0.2.3"
 description = "The Minecraft plugin that manages ranks and permissions on The Slimy Swamp Minecraft server."
 
 val projectNameString = rootProject.name
@@ -51,12 +51,12 @@ tasks {
 bukkitPluginYaml {
   name = "TSSRanks"
   description = project.description
-  authors.addAll("Esoteric Organisation", "Esoteric Enderman")
+  authors.addAll("Esoteric Foundation", "Esoteric Enderman")
 
   version = projectVersionString
   apiVersion = "1.21"
   depend.addAll("TSSCore")
-  main = "org.esoteric.tss.minecraft.plugins.ranks.TSSRanksPlugin"
+  main = "foundation.esoteric.tss.minecraft.plugins.ranks.TSSRanksPlugin"
   load = BukkitPluginYaml.PluginLoadOrder.STARTUP
 }
 

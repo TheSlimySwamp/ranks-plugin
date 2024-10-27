@@ -1,12 +1,12 @@
-package org.esoteric.tss.minecraft.plugins.ranks;
+package foundation.esoteric.tss.minecraft.plugins.ranks;
 
 import foundation.esoteric.tss.minecraft.plugins.core.TSSCorePlugin;
 import foundation.esoteric.tss.minecraft.plugins.core.managers.FileManager;
-import org.esoteric.tss.minecraft.plugins.ranks.commands.SetRankCommand;
-import org.esoteric.tss.minecraft.plugins.ranks.event.listeners.ChatListener;
-import org.esoteric.tss.minecraft.plugins.ranks.event.listeners.ConnectionListener;
-import org.esoteric.tss.minecraft.plugins.ranks.managers.NameTagManager;
-import org.esoteric.tss.minecraft.plugins.ranks.managers.RankManager;
+import foundation.esoteric.tss.minecraft.plugins.ranks.commands.SetRankCommand;
+import foundation.esoteric.tss.minecraft.plugins.ranks.event.listeners.ChatListener;
+import foundation.esoteric.tss.minecraft.plugins.ranks.event.listeners.ConnectionListener;
+import foundation.esoteric.tss.minecraft.plugins.ranks.managers.NameTagManager;
+import foundation.esoteric.tss.minecraft.plugins.ranks.managers.RankManager;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.PluginManager;

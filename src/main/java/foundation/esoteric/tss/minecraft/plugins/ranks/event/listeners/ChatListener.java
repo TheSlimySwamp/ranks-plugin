@@ -1,12 +1,12 @@
-package org.esoteric.tss.minecraft.plugins.ranks.event.listeners;
+package foundation.esoteric.tss.minecraft.plugins.ranks.event.listeners;
 
 import io.papermc.paper.event.player.AsyncChatEvent;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.TextComponent;
 import foundation.esoteric.tss.minecraft.plugins.core.data.Colour;
 import foundation.esoteric.tss.minecraft.plugins.core.data.Rank;
-import org.esoteric.tss.minecraft.plugins.ranks.TSSRanksPlugin;
-import org.esoteric.tss.minecraft.plugins.ranks.managers.RankManager;
+import foundation.esoteric.tss.minecraft.plugins.ranks.TSSRanksPlugin;
+import foundation.esoteric.tss.minecraft.plugins.ranks.managers.RankManager;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
