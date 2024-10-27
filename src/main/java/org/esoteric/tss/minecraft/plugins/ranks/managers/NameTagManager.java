@@ -2,7 +2,7 @@ package org.esoteric.tss.minecraft.plugins.ranks.managers;
 
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.TextComponent;
-import org.esoteric.tss.minecraft.plugins.core.data.Rank;
+import foundation.esoteric.tss.minecraft.plugins.core.data.Rank;
 import org.esoteric.tss.minecraft.plugins.ranks.TSSRanksPlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;

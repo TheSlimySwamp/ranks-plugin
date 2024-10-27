@@ -1,7 +1,7 @@
 package org.esoteric.tss.minecraft.plugins.ranks;
 
-import org.esoteric.tss.minecraft.plugins.core.TSSCorePlugin;
-import org.esoteric.tss.minecraft.plugins.core.managers.FileManager;
+import foundation.esoteric.tss.minecraft.plugins.core.TSSCorePlugin;
+import foundation.esoteric.tss.minecraft.plugins.core.managers.FileManager;
 import org.esoteric.tss.minecraft.plugins.ranks.commands.SetRankCommand;
 import org.esoteric.tss.minecraft.plugins.ranks.event.listeners.ChatListener;
 import org.esoteric.tss.minecraft.plugins.ranks.event.listeners.ConnectionListener;
